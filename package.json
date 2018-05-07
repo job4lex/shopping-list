@@ -9,14 +9,14 @@
         "server": "node node_modules/json-server/bin/index.js --watch server/db.json ",
         "start": "npm run dev",
         "lint": "eslint --ext .js,.vue src",
-        "build": "node build/build.js"
+        "build": "node build/build.js",
+        "postinstall": "npm run build",
+        "start": "node server.js"
     },
     "dependencies": {
         "underscore": "^1.9.0",
         "vue": "^2.5.2",
-        "vuex": "^3.0.1"
-    },
-    "devDependencies": {
+        "vuex": "^3.0.1",
         "autoprefixer": "^7.1.2",
         "babel-core": "^6.22.1",
         "babel-eslint": "^8.2.1",
@@ -64,6 +64,9 @@
         "webpack-bundle-analyzer": "^2.9.0",
         "webpack-dev-server": "^2.9.1",
         "webpack-merge": "^4.1.0"
+    },
+    "devDependencies": {
+
     },
     "engines": {
         "node": ">= 6.0.0",
