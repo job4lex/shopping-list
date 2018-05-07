@@ -4,7 +4,7 @@ import VueResource from 'vue-resource'
 Vue.use(VueResource)
 
 const ShoppingListsResource = Vue.resource(
-  'http://localhost:3000/' + 'shoppinglists{/id}')
+  'api/' + 'shoppinglists{/id}')
 
 export default {
   fetchShoppingLists: () => {
