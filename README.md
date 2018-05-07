@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/job4lex/shopping-list.svg?branch=master)](https://travis-ci.org/job4lex/shopping-list)
-
 # shopping-list
+
+[![Build Status](https://travis-ci.org/job4lex/shopping-list.svg?branch=master)](https://travis-ci.org/job4lex/shopping-list)
 
 > A Vue.js project
 
